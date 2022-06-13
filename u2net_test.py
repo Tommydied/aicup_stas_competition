@@ -61,7 +61,7 @@ def main():
 
     image_dir = os.path.join(os.getcwd(), 'test_data', 'test')
     prediction_dir = os.path.join(os.getcwd(), 'test_data', '_results' + os.sep)
-    model_dir = os.path.join(os.getcwd(), 'saved_models', 'u2net',  'u2net_bce_itr_14000_train_0.041194_tar_0.001414.pth')
+    model_dir = os.path.join(os.getcwd(), 'saved_models', 'u2net',  'u2net_bce_itr_90000_train_0.038551_tar_0.000989.pth')
 
     img_name_list = glob.glob(image_dir + os.sep + '*')
     print(img_name_list)
